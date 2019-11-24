@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<style>
+    .explanation{
+        clear: both;
+        text-align: center;
+    }
+    .d3_network{
+        width: 100%;
+    }
+</style>
+<head>
+    <script src="https://code.highcharts.com/highcharts.js"></script>
+    <script src="https://code.highcharts.com/highcharts-more.js"></script>
+    <script src="https://code.jquery.com/jquery-3.1.1.min.js"></script>
+    <script src="https://code.highcharts.com/modules/wordcloud.js"></script>
+    <script src="https://d3js.org/d3.v4.min.js"></script>
+    <meta charset="UTF-8">
+    <title>Spider-Man!!!!!</title>
+</head>
+<body>
+<h1 class="explanation">Exploring Spider Man</h1>
+<div class = 'explanation'>
+    <p>In this exploratory analysis we will be looking at 3 things about spider man. <br>
+        1. His power scale compared to his classic enemies in marvel 606(canon) universe, <br>
+        2. His one and only movie origin story directed by the great Sam Raimi<br>
+        3. His relationship with other characters/heroes in MCU (during homecoming + civil war period)<br>
+    </p>
+</div>
+<div class="Radar_chart"></div>
+<div></div>
+<div class="word_cloud"></div>
+<div></div>
+<div class="explanation" style="font-size: 25px">
+    <p>Spiderman's in MCU: Relationship during homecoming + civil war period</p>
+</div>
+<div id="chart1" class="d3_network"></div>
+<script src="charts.js"></script>
+<script src="network.js"></script>
+</body>
+</html>
