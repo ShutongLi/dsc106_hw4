@@ -12,7 +12,6 @@ var radar_config = {
         style: {
             fontSize: "28px",
         },
-        align:'left'
     },
 
     subtitle: {
