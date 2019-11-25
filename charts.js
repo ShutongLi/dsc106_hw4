@@ -4,13 +4,15 @@ var radar_config = {
 
     chart: {
         polar: true,
+        backgroundColor:'#ece9e6',
     },
 
     title: {
-        text: 'Power scale: Spider-Man is more powerful than his classic nemesis',
+        text: 'Earth-606: Spider-Man is more powerful than the Sinister Six!',
         style: {
-            fontSize: "25px",
-        }
+            fontSize: "28px",
+        },
+        align:'left'
     },
 
     subtitle: {
@@ -41,10 +43,14 @@ var radar_config = {
         max: 360,
         labels: {
             formatter: function() {
-                console.log(radar_chart_coord[this.value])
                 return radar_chart_coord[this.value];
                 },
             enabled: true,
+            style: {
+                fontSize: '15px',
+                fontFamily: "'Banger', cursive",
+                fontWeight:'bold',
+            }
         }
     },
 
@@ -81,6 +87,9 @@ var radar_config = {
 
 
 var word_cloud_config = {
+    chart: {
+        backgroundColor:'#ece9e6'
+    },
     series: [{
         type: 'wordcloud',
         data: [{name:'great',weight: 11},
@@ -106,13 +115,13 @@ var word_cloud_config = {
         name: 'Occurrences'
     }],
     title: {
-        text: 'Origin Story: Uncle Ben motifs',
+        text: 'Sony Spider-Man\'s Origin Story: Uncle Ben motifs',
         style: {
-            fontSize: "25px",
+            fontSize: "28px",
         }
     },
     subtitle: {
-        text: 'Word Cloud of famous quotes from Sam Raimi\'s Spider Man 1 ',
+        text: 'Word Cloud of parsed famous quotes from Sam Raimi\'s Spider Man 1 ',
     }
 }
 Highcharts.chart(document.getElementsByClassName('Radar_chart')[0], radar_config);
