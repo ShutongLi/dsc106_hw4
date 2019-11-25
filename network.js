@@ -18,7 +18,7 @@ var simulation = d3.forceSimulation()
 
 const graph = {
     "nodes": [
-        {"id": "peter parker", "group": 1},
+        {"id": "Spidey/Peter Parker", "group": 1},
         {"id": "Aunt May", "group": 1},
         {"id": "Happy Hogan", "group": 1},
         //team tony
@@ -45,16 +45,16 @@ const graph = {
     ],
     "links": [
         //hero friends
-        {"source": "peter parker", "target": "tony stark", "value": 1},
-        {"source": "peter parker", "target": "Aunt May", "value": 1},
-        {"source": "peter parker", "target": "Happy Hogan", "value": 1},
+        {"source": "Spidey/Peter Parker", "target": "tony stark", "value": 1},
+        {"source": "Spidey/Peter Parker", "target": "Aunt May", "value": 1},
+        {"source": "Spidey/Peter Parker", "target": "Happy Hogan", "value": 1},
         {"source": "Aunt May", "target": "Happy Hogan", "value": 1},
         {"source": "tony stark", "target": "Happy Hogan", "value": 1},
         //school friends
-        {"source": "peter parker", "target": "MJ", "value": 1},
-        {"source": "peter parker", "target": "Ned Leeds", "value": 1},
-        {"source": "peter parker", "target": "Flash Thompson", "value": 1},
-        {"source": "peter parker", "target": "Liz", "value": 1},
+        {"source": "Spidey/Peter Parker", "target": "MJ", "value": 1},
+        {"source": "Spidey/Peter Parker", "target": "Ned Leeds", "value": 1},
+        {"source": "Spidey/Peter Parker", "target": "Flash Thompson", "value": 1},
+        {"source": "Spidey/Peter Parker", "target": "Liz", "value": 1},
         {"source": "MJ", "target": "Ned Leeds", "value": 1},
         {"source": "MJ", "target": "Flash Thompson", "value": 1},
         {"source": "MJ", "target": "Liz", "value": 1},
@@ -62,12 +62,12 @@ const graph = {
         {"source": "Ned Leeds", "target": "Liz", "value": 1},
         {"source": "Flash Thompson", "target": "Liz", "value": 1},
         //villain rivalry
-        {"source": "peter parker", "target": "Vulture", "value": 1},
-        {"source": "peter parker", "target": "Prowler", "value": 1},
+        {"source": "Spidey/Peter Parker", "target": "Vulture", "value": 1},
+        {"source": "Spidey/Peter Parker", "target": "Prowler", "value": 1},
         {"source": "Vulture", "target": "Prowler", "value": 1},
         {"source": "Vulture", "target": "Liz", "value": 10},
         //hero rivalry (team cap)
-        {"source": "peter parker", "target": "Captain America", "value": 1},
+        {"source": "Spidey/Peter Parker", "target": "Captain America", "value": 1},
         {"source": "tony stark", "target": "Captain America", "value": 1},
         {"source": "Captain America", "target": "Falcon", "value": 1},
         {"source": "Captain America", "target": "Scarlet Witch", "value": 1},
