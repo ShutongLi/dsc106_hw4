@@ -47,7 +47,7 @@ var radar_config = {
                 },
             enabled: true,
             style: {
-                fontSize: '15px',
+                fontSize: '18px',
                 fontFamily: "'Bangers', cursive",
                 fontWeight:'bold',
             }
