@@ -11,6 +11,7 @@ var radar_config = {
         text: 'Earth-606: Spider-Man is more powerful than the Sinister Six!',
         style: {
             fontSize: "28px",
+            fontFamily: "'Bangers', cursive"
         },
     },
 
@@ -47,7 +48,7 @@ var radar_config = {
             enabled: true,
             style: {
                 fontSize: '15px',
-                fontFamily: "'Banger', cursive",
+                fontFamily: "'Bangers', cursive",
                 fontWeight:'bold',
             }
         }
@@ -117,6 +118,7 @@ var word_cloud_config = {
         text: 'Sony Spider-Man\'s Origin Story: Uncle Ben motifs',
         style: {
             fontSize: "28px",
+            fontFamily: "'Bangers', cursive"
         }
     },
     subtitle: {
